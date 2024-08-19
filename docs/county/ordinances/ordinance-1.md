@@ -6,7 +6,7 @@ date: 2019-09-14
 
 Presented and Sponsored by Board Member: `PwnzorJSyndicate`
 
-Be it enacted by the County Councillors and County Commissioners here assembled that
+Be it enacted by the County Councillors and County Commissioners here assembled that 
 
 __**THE BOARD OF NEW HAVEN COUNTY ENACTS**__
 

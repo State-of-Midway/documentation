@@ -1,9 +1,7 @@
-site_name: State of Midway Documents
-site_url: https://state-of-midway.github.io/documentation
-site_author: Longitude
-site_description: Active legislation for the State of Midway Roblox group
-repo_name: state-of-midway/documentation
-repo_url: https://github.com/state-of-midway/documentation
+site_name: State of Mayflower Legislation
+site_url: https://state-of-midway.github.io/documentation/
+site_author: Southside Studios
+site_description: Active legislation for the State of Mayflower Roblox group
 
 theme:
   name: material
@@ -34,10 +32,22 @@ markdown_extensions:
   - toc:
       permalink: true
   - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - attr_list
   - md_in_html
 
 extra_css:
   - stylesheets/extra.css
+
+nav:
+  - Home: index.md
+  - State Legislation:
+      - Overview: state/overview.md
+      - Penal Code: state/penal_code.md
+  - County Legislation:
+      - Overview: county/overview.md
+      - County Laws: county/laws.md
+  - Municipal Legislation:
+      - Overview: municipal/overview.md
+      - City Ordinances: municipal/ordinances.md
