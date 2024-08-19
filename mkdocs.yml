@@ -1,0 +1,43 @@
+site_name: State of Midway Documents
+site_url: https://state-of-midway.github.io/documentation
+site_author: Longitude
+site_description: Active legislation for the State of Midway Roblox group
+repo_name: state-of-midway/documentation
+repo_url: https://github.com/state-of-midway/documentation
+
+theme:
+  name: material
+  features:
+    - tabs
+
+  logo: assets/logo.png
+  favicon: assets/favicon.ico
+
+  icon:
+    repo: fontawesome/brands/github
+
+  include_search_page: false
+  search_index_only: true
+
+  language: en
+
+plugins:
+  - search:
+      separator: '[\s\-]+'
+  - awesome-pages
+  - git-revision-date-localized:
+      type: date
+
+markdown_extensions:
+  - admonition
+  - footnotes
+  - toc:
+      permalink: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - attr_list
+  - md_in_html
+
+extra_css:
+  - stylesheets/extra.css
