@@ -42,12 +42,5 @@ extra_css:
 
 nav:
   - Home: index.md
-  - State Legislation:
-      - Overview: state/overview.md
-      - Penal Code: state/penal_code.md
-  - County Legislation:
-      - Overview: county/overview.md
-      - County Laws: county/laws.md
-  - Municipal Legislation:
-      - Overview: municipal/overview.md
-      - City Ordinances: municipal/ordinances.md
+  - Guidelines:
+      - Game Rules: guidelines/game-rules.md
