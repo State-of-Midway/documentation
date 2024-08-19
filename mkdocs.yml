@@ -41,6 +41,6 @@ extra_css:
   - stylesheets/extra.css
 
 nav:
-  - Home: index.html
+  - Home: index.md
   - Guidelines:
       - Game Rules: guidelines/game-rules.md
