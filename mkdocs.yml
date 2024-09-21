@@ -44,3 +44,4 @@ nav:
   - Home: index.md
   - Guidelines:
       - Game Rules: guidelines/game-rules.md
+  - State Laws: laws.html
