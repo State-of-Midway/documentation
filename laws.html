@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Embedded Google Sheet</title>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: Arial, sans-serif;
+        }
+        #header {
+            background-color: #3B4B61; /* Dark blue color */
+            color: white;
+            display: flex;
+            align-items: flex-start; /* Align items to the top */
+            justify-content: space-between;
+            padding: 10px 20px;
+            height: 50px;
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        #headerContent {
+            display: flex;
+            align-items: flex-start; /* Align items to the top */
+        }
+        #logo {
+            height: 30px;
+            margin-right: 10px; /* Space between logo and text */
+        }
+        #headerText {
+            font-size: 18px;
+            font-weight: bold;
+            margin-top: 5px; /* Adjust this value to control the vertical position of the text */
+        }
+        #backButton {
+            background-color: #ffffff;
+            color: #3B4B61;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        #backButton:hover {
+            background-color: #f0f0f0;
+        }
+        #googleSheet {
+            width: 100%;
+            height: calc(100% - 50px); /* Subtract header height */
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <div id="headerContent">
+            <img id="logo" src="assets/logo.png" alt="Logo">
+            <span id="headerText">State of Midway</span>
+        </div>
+        <button id="backButton" onclick="history.back()">Go Back</button>
+    </div>
+    <iframe id="googleSheet" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSGAceP3BWoeWWLrD93nsGKAlsSQV2H6Yuu_mfYH6FYVIVQ6L3nIxO3njlD-VbMJ9XbGBIYZuExo9nI/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+</body>
+</html>
